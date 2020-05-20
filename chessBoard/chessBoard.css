@@ -1,0 +1,35 @@
+main{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 20px;
+    grid-template-areas: 
+        "otherWay"
+        "chessboard"
+        "selfWay";
+}
+
+.otherPlayer {
+    grid-area: "otherWay";
+}
+
+.chessBoard {
+    grid-area: "chessboard";
+}
+
+.selfPlayer {
+    grid-area: "selfWay";
+}
+
+.nowWay {
+    outline: black outset 5px;
+}
+
+#Way {
+    font-size: 150%;
+}
+
+#Board {
+    background-color: burlywood;
+    outline:black outset 5px;
+}
