@@ -18,7 +18,7 @@ function check(x,y) {
             sessionStorage.removeItem('selfName');
             sessionStorage.removeItem('otherName');
             sessionStorage.removeItem('roomNumber');
-            window.location.href='../index/index.html';
+            window.location.href='../index.html';
         }
     }
 }

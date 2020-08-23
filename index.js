@@ -20,7 +20,7 @@ ws.onmessage = event => {
     sessionStorage.setItem('selfName',name);
     sessionStorage.setItem('otherName',otherPlayer[1]);
     sessionStorage.setItem('roomNumber',otherPlayer[0]);
-    window.location.href='../chessBoard/chessBoard.html';
+    window.location.href='./chessBoard/chessBoard.html';
 }
 
 function waitRoom(){
